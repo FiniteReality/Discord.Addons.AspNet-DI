@@ -1,0 +1,8 @@
+# Ignore local editor settings
+.vscode
+# Ignore .lock.json files
+*.lock.json
+
+# Ignore build outputs
+bin/
+obj/
