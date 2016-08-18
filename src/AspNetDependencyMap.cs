@@ -6,12 +6,12 @@ namespace Discord.Addons.AspNetDI
 {
     public class AspNetDependencyMap : IDependencyMap
     {
-		private IServiceProvider _provider;
+        private IServiceProvider _provider;
 
-		public AspNetDependencyMap(IServiceProvider provider)
-		{
-			_provider = provider;
-		}
+        public AspNetDependencyMap(IServiceProvider provider)
+        {
+            _provider = provider;
+        }
 
         public void Add<T>(T obj)
         {
