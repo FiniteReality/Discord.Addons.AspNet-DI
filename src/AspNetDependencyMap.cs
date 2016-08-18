@@ -30,16 +30,16 @@ namespace Discord.Addons.AspNetDI
 
         public bool TryGet(Type t, out object result)
         {
-			result = _provider.GetService(t);
+            result = _provider.GetService(t);
 
-			return (result != null);
+            return (result != null);
         }
 
         public bool TryGet<T>(out T result)
         {
-			result = _provider.GetService<T>();
+            result = _provider.GetService<T>();
 
-			return (result != null);
+            return (result != null);
         }
     }
 }
