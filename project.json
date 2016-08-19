@@ -7,10 +7,10 @@
   "packOptions": {
     "tags": [ "discord.net" ],
     "licenseUrl": "http://opensource.org/licenses/MIT",
-    "projectUrl": "https://github.com/FiniteReality/Discord.Net.Addons.AspNet-DI",
+    "projectUrl": "https://github.com/FiniteReality/Discord.Addons.AspNet-DI",
     "repository": {
       "type": "git",
-      "url": "git://github.com/FiniteReality/Discord.Net.Addons.AspNet-DI"
+      "url": "git://github.com/FiniteReality/Discord.Addons.AspNet-DI"
     }
   },
 
